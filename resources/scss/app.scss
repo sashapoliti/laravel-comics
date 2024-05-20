@@ -64,3 +64,105 @@ header {
       }
     }
   }
+
+  footer {
+    #top-footer {
+      background-color: $general-blue;
+      color: $general-white;
+      div.container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        a {
+          padding: 20px 34px;
+          border: 2px solid rgba(255, 255, 255, 0);
+          &:hover {
+            border-color: $general-white;
+            transition-duration: 0.4s;
+          }
+          div.icon {
+            height: 60px;
+            aspect-ratio: 1 / 1;
+          }
+          span {
+            font-size: 0.9rem;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+    #middle-footer {
+      background-image: url("/images/footer-bg.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      div.container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image: url("/images/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position: right 1.5% bottom 50%;
+        div.col-1 {
+          width: 150px;
+          &:first-child {
+            ul {
+              &:first-child {
+                padding-bottom: 20px;
+              }
+            }
+          }
+          ul {
+            padding: 0;
+            h5 {
+              font-family: $anton;
+              color: $general-white;
+            }
+            li {
+              height: 21px;
+              a {
+                color: $footer-text;
+                font-size: 0.8rem;
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    #bottom-footer {
+      background-color: $footer-bg;
+      div.container {
+        height: 120px;
+        #call-to-action {
+          color: $general-white;
+          padding: 10px 15px;
+          font-size: 1rem;
+          font-weight: 600;
+          border: 2px solid $general-blue;
+          &:hover {
+            background-color: $general-blue;
+            transition-duration: 0.3s;
+          }
+        }
+        div.social-icons {
+          span {
+            font-family: $anton;
+            font-size: 1.4rem;
+            margin-right: 10px;
+            color: $general-blue;
+          }
+          div.icon {
+            margin-left: 20px;
+            a {
+              &:hover {
+                img {
+                  filter: brightness(200%);
+                  transition-duration: 0.6s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

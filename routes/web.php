@@ -15,5 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $headerMenu = config('db.menu');
-    return view('home', compact('headerMenu'));
+    $footerDcComics = config('db.dcComics');
+    $footerShop = config('db.shop');
+    $footerDc = config('db.dc');
+    $footerSites = config('db.sites');
+    $footerSocialIcons = config('db.socialIcons');
+    $footerCards = config('db.shopCards');
+    return view('home', compact('headerMenu', 'footerDcComics', 'footerShop', 'footerDc', 'footerSites', 'footerSocialIcons', 'footerCards'));
 });
