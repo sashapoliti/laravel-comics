@@ -124,7 +124,7 @@ return [
     ],
     'menu' => [
         ['name' => 'Characters', 'url' => '/characters'],
-        ['name' => 'Comics', 'url' => '#'],
+        ['name' => 'Comics', 'url' => '/comics'],
         ['name' => 'Movies', 'url' => '#'],
         ['name' => 'Tv', 'url' => '#'],
         ['name' => 'Games', 'url' => '#'],
