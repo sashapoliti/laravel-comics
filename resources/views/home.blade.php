@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-<main>
+<main id="home">
     <div id="jumbotron"></div>
     <div class="container">
         <h2 class="text-uppercase">Current Series</h2>

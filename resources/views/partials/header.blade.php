@@ -1,8 +1,10 @@
 <header>
     <div class="container d-flex justify-content-between align-items-center">
-        <div id="logo">
-            <img class="img-fluid" src="/images/dc-logo.png" alt="Logo" />
-        </div>
+        <a href="/">
+            <div id="logo">
+                <img class="img-fluid" src="/images/dc-logo.png" alt="Logo" />
+            </div>
+        </a>
         <ul class="d-flex">
             @foreach ($headerMenu as $menu)
                 <li>

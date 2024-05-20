@@ -123,7 +123,7 @@ return [
         ['title' => 'Dc Power Visa', 'img' => 'buy-dc-power-visa.svg', 'url' => '#'],
     ],
     'menu' => [
-        ['name' => 'Characters', 'url' => '#'],
+        ['name' => 'Characters', 'url' => '/characters'],
         ['name' => 'Comics', 'url' => '#'],
         ['name' => 'Movies', 'url' => '#'],
         ['name' => 'Tv', 'url' => '#'],
