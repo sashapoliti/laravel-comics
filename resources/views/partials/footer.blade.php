@@ -1,1 +1,3 @@
-<div>footer</div>
+<footer>
+    sono footer
+  </footer>
